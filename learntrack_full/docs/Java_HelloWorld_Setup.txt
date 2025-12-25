@@ -1,0 +1,44 @@
+Step 1: Java Installation Instructions
+
+First, install Java JDK from Oracle's official website or use OpenJDK:
+
+Option 1: Install from Oracle
+Visit https://www.oracle.com/java/technologies/downloads/
+
+Download the latest JDK version for your OS (Windows, macOS, or Linux)
+
+Run the installer and follow the setup wizard
+
+Option 2: Install OpenJDK (Recommended)
+For most users, OpenJDK is a great free alternative:
+
+Windows:
+use Chocolatey:
+choco install openjdk
+
+macOS:
+brew install openjdk
+
+Linux (Ubuntu):
+sudo apt update
+sudo apt install openjdk-21-jdk
+
+Step 2: Verify Installation
+After installation, verify it's working:
+
+java --version
+javac --version
+
+Step 3: Create the Hello World Program
+Create a file called HelloWorld.java:
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+Compile and run it:
+
+javac HelloWorld.java
+java HelloWorld
